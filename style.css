@@ -13,7 +13,7 @@ color: white;
 width: 100%;
 padding: 20px;
 font-size: xx-large;
-font-family:Arial, Helvetica, sans-serif;
+font-family:cursive, Helvetica, sans-serif;
 }
 .cabecalho-itens{
 max-width: 1980px;
@@ -23,7 +23,7 @@ align-items: center;
 justify-content: center;
 }
 .cabecalho_imagem{
-width: 10%;
+width: 40%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
