@@ -23,7 +23,7 @@ align-items: center;
 justify-content: center;
 }
 .cabecalho_imagem{
-width: 40%;
+width: 120px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -60,9 +60,10 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#faae43);
-padding: 24px 0;
+ background-color: #faae43;
+    padding: 24px 0;
 }
+
 
 .estudante.div{
 text-align: center;
