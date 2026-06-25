@@ -8,10 +8,10 @@ body{
 font-family: "Poppins", sans-serif;
 }
 header{
-background-image: linear-gradient(#f7f4ea,#b87c4c);
+background-image: linear-gradient(#b87c4c,#f7f4ea);
 color: white;
 width: 100%;
-padding: 20px;
+padding: 0px;
 font-size: xx-large;
 font-family:cursive, Helvetica, sans-serif;
 }
@@ -23,7 +23,7 @@ align-items: center;
 justify-content: center;
 }
 .cabecalho_imagem{
-width: 120px;
+width: 450px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -67,7 +67,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
- background-color: #faae43;
+ background-color:#f7f4ea ;
     padding: 24px 0;
 }
 
