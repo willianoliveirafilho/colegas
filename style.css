@@ -13,7 +13,7 @@ color: white;
 width: 100%;
 padding: 0px;
 font-size: xx-large;
-font-family:cursive, Helvetica, sans-serif;
+font-family:cursive;
 }
 .cabecalho-itens{
 max-width: 1980px;
@@ -54,6 +54,8 @@ padding-right: 30px;
 .estudante_titulo{
 padding: 50px;
 text-align: center;
+  font-family:cursive;
+    font-size:xxx-large
 
 }
 .estudante-nome{
