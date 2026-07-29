@@ -118,19 +118,13 @@ text-decoration: none;
 
 }
 
-.container-video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color:#b87c4c ;
-}
+
 
 
 .video-wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color:#b87c4c ;
+    background-color:#f7f4ea;
 
 }
