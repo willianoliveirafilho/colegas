@@ -104,10 +104,11 @@ padding: 12px 0;
 .link{
 color: #ffffff;
 text-decoration: none;
+}
 
 
 
-.container-video{
+.video{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
