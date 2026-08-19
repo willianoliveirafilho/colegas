@@ -159,3 +159,32 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
+
+
+
+
+
+
+
+.sobre-streamer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.sobre-foto {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #a97142;
+}
+
+.sobre-texto {
+  max-width: 300px;
+  font-size: 18px;
+  line-height: 1.6;
+}
