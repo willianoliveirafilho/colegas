@@ -1,6 +1,6 @@
 
 
-alan titulo {
+.alan {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@ alan titulo {
   display: flex;
 }
 
-alan titulo li a {
+.alan {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-alan titulo li a:hover {
+.alan  {
   background-color: #111111;
 }
