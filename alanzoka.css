@@ -1,6 +1,6 @@
 
 
-.alan {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@
   display: flex;
 }
 
-.alan {
+ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.alan  {
+ul li a:hover {
   background-color: #111111;
 }
