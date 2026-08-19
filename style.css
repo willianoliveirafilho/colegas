@@ -188,3 +188,45 @@ ul li a:hover {
   font-size: 18px;
   line-height: 1.6;
 }
+
+
+
+
+.sobre-streamer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.sobre-foto {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #a97142;
+  margin-bottom: 40px;
+}
+
+.sobre-blocos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.sobre-bloco h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sobre-bloco p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .sobre-blocos {
+    grid-template-columns: 1fr;
+  }
+}
