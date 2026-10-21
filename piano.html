@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jogo | Nossa Escola</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+  /* Caixa quadrada no meio da página */
+  .caixa-jogo{
+    display:flex;
+    justify-content:center;
+    padding:24px 12px;
+  }
+  .caixa-jogo iframe{
+    width:min(92vw, 640px);
+    aspect-ratio:1 / 1;      /* deixa a caixa quadrada */
+    border:4px solid #222;
+    border-radius:16px;
+    box-shadow:0 8px 24px rgba(0,0,0,.35);
+  }
+  /* No celular a caixa fica mais alta para o jogo caber */
+  @media (max-width:700px){
+    .caixa-jogo iframe{
+      aspect-ratio:auto;
+      height:760px;
+    }
+  }
+</style>
 </head>
 <body>
 
@@ -19,15 +40,23 @@
   <li><a href="jogo.html" class="active">jogo</a></li>
 </ul>
 
+<header class="cabecalho-itens">
+  <img class="cabecalho_imagem" src="pngwing.com.png" alt="Logo da Página">
 
-<html>
-<head><meta charset="utf-8"></head>
-<body>
-<script src="jogo-completo.js"></script>
-</body>
-</html>
- 
-<!--Seção rodapé é a parte final da página-->
+  <h1 class="titulo_site">JOGO</h1>
+
+  <div class="sociais">
+    <img class="sociais" src="Youtube_logo.png" alt="YouTube">
+    <img class="sociais" src="TW__1_-removebg-preview.png" alt="Twitter">
+    <img class="sociais" src="instagram.png" alt="Instagram">
+  </div>
+</header>
+
+<!-- Jogo: só aparece neste quadrado no meio -->
+<section class="caixa-jogo">
+  <iframe src="piano.html" title="Jogo Teclas"></iframe>
+</section>
+
 <footer class="escola">
   <img class="logo_rodape" src="MEME.jpg" alt="Logo da Escola">
   <h2 class="escola-título">MAIS VIDEOS ENTRE NO LINK DO CANAL
@@ -38,9 +67,6 @@
 
 </body>
 </html>
-
-
-
 
 
 
