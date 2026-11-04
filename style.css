@@ -262,15 +262,14 @@ ul li a:hover {
 
 
 
-
-
 .area-jogo {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  padding: 30px 0;
   background-color: #f7f4ea;
 }
+
 
 .area-jogo iframe {
   width: 450px;
